@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(../parking-proyect/img/bg-02.jpg);
+    url(img/bg-02.jpg);
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -151,7 +151,7 @@ span {
       rgba(4, 9, 30, 0.897),
       rgba(4, 9, 30, 0.829)
     ),
-    url(../parking-proyect/img/banner.png);
+    url(img/banner.png);
   /*min-height: 100vh;*/
   background-position: center;
   background-size: cover;
@@ -191,7 +191,7 @@ span {
       rgba(4, 9, 30, 0.808),
       rgba(4, 9, 30, 0.808)
     ),
-    url(../parking-proyect/img/banner.png);
+    url(img/banner.png);
   background-position: center;
   background-size: cover;
   object-fit: cover;
