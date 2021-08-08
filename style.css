@@ -105,17 +105,25 @@ h5 {
 }
 .btn {
   background: var(--amarillo);
-  border-radius: 25px;
+  border-radius: 5px;
   text-decoration: none;
   color: var(--blanco);
   font-size: 20px;
   padding: 10px 30px;
+  margin: auto;
 }
+.btn a{
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+
 /*======= Service===========*/
 .row {
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+  flex-wrap: wrap;
 }
 .col-sevices {
   flex-basis: 31%;
@@ -306,6 +314,7 @@ button {
   /*===========Serices============*/
   .row {
     flex-direction: column;
+    
   }
 
   h5 {
@@ -318,9 +327,9 @@ button {
     width: 100%;
   }
   .btn {
-    border-radius: 25px;
-    text-decoration: none;
-    color: var(--blanco);
+    /*border-radius: 5px;*/
+    /*text-decoration: none;*/
+    /*color: var(--blanco);*/
     font-size: 16px;
     padding: 5px 20px;
   }
@@ -335,4 +344,20 @@ button {
   .contact-col-1 {
     margin-bottom: 90px;
   }
+}
+@media (max-width: 400px){
+  /*===========Serices============*/
+  .row {
+    flex-wrap: wrap;
+    
+    
+   
+
+  }
+  .col-sevices {
+  flex-basis: 100%;
+   margin: auto;
+   margin-top: 30px;
+  }
+
 }
